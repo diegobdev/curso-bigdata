@@ -1,0 +1,62 @@
+{
+  "title": "Git + Jenkins -> CI",
+  "description": "Neste laboratório iremos implementar a ferramenta Jenkins. Para isso, iremos realizar a instalação e configuração do Jenkins em um container Docker, instalação e configuração do Git Plugin. \
+  Desta forma, conseguiremos \"observar\" um repositório no GitHub e configuraremos um \"trigger\" para realizar o build e execução de scripts dentro do Jenkins. \
+  Ao final do laboratório, teremos implantado um modelo básico do conceito de CI - Continuous Integration.",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Obtendo imagem docker do jenkins",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Rodando o container",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Acessando o container",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Acessando UI do Jenkins",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Instalação e Configuração",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Instalação e Configuração [2]",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Gerenciando o Jenkins",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8 - Sincronizando o ambiente com Github",
+        "text": "step8.md"
+      },
+      {
+        "title": "Step 9 - Configurando o plugin Git",
+        "text": "step9.md"
+      },
+      {
+        "title": "Step 10 - CI/CD",
+        "text": "step10.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "node"
+  }
+}
