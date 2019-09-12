@@ -17,14 +17,17 @@ Um novo projeto será criado e você será redirecionado para a página de confi
 
 **Na seção Trigger de Construção (ou Trigger de Build):**
 - Marque a opção de Poll SCM (ou Consultar periodicamente o SCM)
-- Digite uma expressão cron como (com espaço entre cada um) no campo de texto. (Significa verificar o repositório para uma possível mudança a cada minuto) Ex.: * * * * * para mais detalhes
+- Digite uma expressão cron no campo de texto.
+* (Expressão cron, significa verificar o repositório para uma possível mudança a cada minuto)
+
+```Ex.: * * * * *```
 
 **Agora vamos adicionar o passo de construção. Para fazer isso:**
 - Clique no dropdown Add Build Step na seção Build.
 - Selecione a opção Executar Shell.
 - Digite seguinte no campo de texto:
 ```
-cd /curso-bigdata
+cd /treinamento-bigdatasystems-cicd
 python example.py
 ```
 
