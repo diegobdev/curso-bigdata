@@ -17,10 +17,12 @@ Um novo projeto será criado e você será redirecionado para a página de confi
 
 **Na seção Trigger de Construção (ou Trigger de Build):**
 - Marque a opção de Poll SCM (ou Consultar periodicamente o SCM)
-- Digite uma expressão cron no campo de texto.
-* (Expressão cron, significa verificar o repositório para uma possível mudança a cada minuto)
+- Digite a expressão cron no campo de texto:
+- - ```* * * * *```
 
-```Ex.: * * * * *```
+
+***(Expressão cron, pode ser resumido em "agendador de tarefas baseado em tempo em sistemas operacionais", neste caso: verificar o repositório para uma possível mudança a cada minuto)***
+
 
 **Agora vamos adicionar o passo de construção. Para fazer isso:**
 - Clique no dropdown Add Build Step na seção Build.
