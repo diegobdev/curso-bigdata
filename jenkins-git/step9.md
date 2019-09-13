@@ -18,7 +18,7 @@ Um novo projeto será criado e você será redirecionado para a página de confi
 **Na seção Trigger de Construção (ou Trigger de Build):**
 - Marque a opção de Poll SCM (ou Consultar periodicamente o SCM)
 - Digite a expressão cron no campo de texto:
-- - ```* * * * *```
+```* * * * *```
 
 
 ***(Expressão cron, pode ser resumido em "agendador de tarefas baseado em tempo em sistemas operacionais", neste caso: verificar o repositório para uma possível mudança a cada minuto)***
