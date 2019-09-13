@@ -8,7 +8,7 @@ Agora, faremos uma alteração da mensagem 'printada' no arquivo `example.py` em
 - Vá para o seu repositório local (pasta treinamento-bigdatasystems-cicd)
 - Trocaremos o conteúdo do arquivo example.py com o seguinte comando:
   - `echo "print('BigData Systems')" > example.py`
-- Agora, envie as alterações para o repositório remoto (`git add .`, `git commit -m "change echo message"` e `git push origin master`).
+- Agora, envie as alterações para o repositório remoto (`git add .`, `git commit -m "change print message"` e depois `git push origin master`).
 
 Depois que as alterações forem enviadas ao repositório remoto, conseguiremos observar a seção 'Histórico de construção' no painel do nosso projeto, dentro do Jenkins.
 
